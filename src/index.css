@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for sidebar */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: black; /* background behind scrollbar */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: gray; /* draggable thumb */
+  border-radius: 4px;
+}
+
