@@ -12,7 +12,8 @@ export default function Header() {
   }, [darkMode]);
 
   return (
-    <header className="flex items-center justify-between px-4 py-3 bg-black text-white shadow-md relative z-50">
+    <header className="flex items-center justify-between px-4 py-3 
+    relative z-50">
       {/* Right - Icons */}
       <div className="flex items-center space-x-6">
         {/* Sun / Moon Icon */}
