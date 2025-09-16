@@ -24,7 +24,6 @@ function App() {
     <Router>
       <Layout>
         <Routes>
-          {/* Default Home/Dashboard */}
           <Route path="/" element={<Home />} />
             <Route path="/doctor-dashboard" element={<Doctordashboard />} /> 
               <Route path="/patient-dashboard" element={<Patientdashboard/>} />

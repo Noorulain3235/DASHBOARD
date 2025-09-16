@@ -12,7 +12,7 @@ export default function Sidebar({ isSidebarOpen, toggleSidebar }) {
   const menuItems = [
     {
       name: "Dashboard",
-      to: "/dashboard",
+      to: "/",
       dropdown: true,
       subMenu: [
         { name: "Admin Dashboard", to: "/" },
